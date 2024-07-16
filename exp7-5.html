@@ -3,25 +3,32 @@
 <head>
     <title>example7-4</title>
     <style>
-        p { color: rgb(0, 0, 0); }
-        div { 
+        #p1 { color: rgb(255, 255, 255); 
+        background-color: blueviolet;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        
+
+        #p2 { 
             color: rgb(0, 207, 28); 
             background-color: black; 
+            font-size: 18px;
+            font-weight: bold;
         }
-        span {
+        #p3 {color: aquamarine;
+            background-color: black;
             font-size: 18px;
             font-weight: bold;
         }
     </style>    
 </head>
-<body>
-    <p>ข้อความนี้อยู่ใน p</p>
-    <div>ข้อความนี้อยู่ใน div</div> <br>
-    <span>ข้อความนี้อยู่ใน span</span> <br><br>
-    <div>ข้อความนี้อยู่ใน div</div>
-    <p>ข้อความนี้อยู่ใน p</p>     
-    <div>
-        <span>ข้อความนี้อยู่ใน span ที่ซ้อนใน div</span>
-    </div>
+<body background="img/BGrimuru1.jpg">
+    
+    <p>ข้อความของแท็กที่ไม่กำหนด id</p>
+    <p id="p1">ข้อความของแท็กที่กำหนดค่า id="p1"</p>
+    <p id="p2">ข้อความของแท็กที่กำหนดค่า id="p2"</p>
+    <p id="p3">ข้อความของแท็กที่กำหนดค่า id="p3"</p>
+
 </body>
 </html>
